@@ -5,6 +5,7 @@
 
 ## 代码规范
 * http://ssv.sebug.net/Python_Coding_Rule
+
 ## 学习资源
 * [简明 Python 教程](http://sebug.net/paper/python/index.html)
 * [crossin的编程教室](http://crossin.me/forum.php?mod=forumdisplay&fid=2)
