@@ -7,6 +7,8 @@ print "bbb"
 print "This is the first sentence.\
 This is the second sentence."
 
+print 20 * '*'; # 输出20个*
+
 
 print '''This is a multi-line string. This is the first line.
 This is the second line.
