@@ -1,5 +1,5 @@
 # range(start, stop[, step])
-for i in range(0,5):
+for i in range(5):
     print i;
 print '==============';
 
@@ -9,6 +9,11 @@ print 20 * '*';
 
 for i in [0, 1, 2]:
     print i;
+
+# one line loop~ cool~
+arr = [-num for num in range(20) if num % 3 == 1];
+print arr;
+
 print 10 * '*', 'for end', 10 * '*';
 
 i =  0;

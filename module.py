@@ -22,5 +22,9 @@ if __name__ == '__main__':
 else:
     print 'I am being imported from another module'
 
-# 更多关于包的介绍
 # http://sebug.net/paper/books/python_hb/node8.html#SECTION008110000000000000000
+# 在一个模块被导入时，PVM会在后台从一系列路径中搜索该模块，其搜索过程如下：
+# 1、在当前目录下搜索该模块；
+# 2、在环境变量PYTHONPATH中指定的路径列表中依次搜索；
+# 3、在python安装路径中搜索
+# 事实上，PVM通过变量sys.path中包含的路径来搜索，这个变量里面包含的路径列表就是上面提到的这些路径信息
