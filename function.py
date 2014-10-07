@@ -97,3 +97,8 @@ def printMax(x, y):
 
 printMax(3, 5)
 print printMax.__doc__
+
+# lamda 匿名函数,有点类似闭包
+print 10 * '*', 'lambda', 10 * '*';
+print (lambda a,b: a+b)(1,3); #4
+print map(lambda x: x * x, [1,2,3]); # [1, 4, 9]
