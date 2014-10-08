@@ -18,7 +18,7 @@
 * [ 深入 Python :Dive Into Python 中文版](http://sebug.net/paper/books/dive-into-python/)
 * [crossin的编程教室](http://crossin.me/forum.php?mod=forumdisplay&fid=2)
 * [深入 Python 3](http://sebug.net/paper/books/dive-into-python3/)
-* [Python安全](http://sebug.net/paper/books/vulncat/python/)
+* [ython安全](http://sebug.net/paper/books/vulncat/python/)
 
 ### 英文资源
 * [dive into python](http://www.diveintopython.net/toc/index.html)
