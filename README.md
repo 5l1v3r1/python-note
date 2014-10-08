@@ -18,9 +18,21 @@
 * [ 深入 Python :Dive Into Python 中文版](http://sebug.net/paper/books/dive-into-python/)
 * [crossin的编程教室](http://crossin.me/forum.php?mod=forumdisplay&fid=2)
 * [深入 Python 3](http://sebug.net/paper/books/dive-into-python3/)
-* [ython安全](http://sebug.net/paper/books/vulncat/python/)
+* [Python安全](http://sebug.net/paper/books/vulncat/python/)
 
 ### 英文资源
 * [dive into python](http://www.diveintopython.net/toc/index.html)
 * [learn python the hardway](http://learnpythonthehardway.org/book/)
-* [python官网教程](https://docs.python.org/2/tutorial/)
+* [Python官网教程](https://docs.python.org/2/tutorial/)
+
+
+# 在sublime中运行python
+“Preference(首选项)”-----》“Browse Packages(浏览程序包)”----------》“python”，在打开的目录中修改Python.sublime-build文件类似如下
+```
+{
+    "cmd": ["python", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python"
+}
+```
+然后，Python文件就可以`ctrl／Command ＋ b`来运行
