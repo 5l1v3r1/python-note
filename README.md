@@ -12,8 +12,15 @@
 * http://ssv.sebug.net/Python_Coding_Rule
 
 ## 学习资源
+### 中文资源
 * [简明 Python 教程](http://sebug.net/paper/python/index.html)
+* [Python 手册](http://sebug.net/paper/books/python_hb/)
+* [ 深入 Python :Dive Into Python 中文版](http://sebug.net/paper/books/dive-into-python/)
 * [crossin的编程教室](http://crossin.me/forum.php?mod=forumdisplay&fid=2)
+* [深入 Python 3](http://sebug.net/paper/books/dive-into-python3/)
+* [Python安全](http://sebug.net/paper/books/vulncat/python/)
+
+### 英文资源
 * [dive into python](http://www.diveintopython.net/toc/index.html)
 * [learn python the hardway](http://learnpythonthehardway.org/book/)
 * [python官网教程](https://docs.python.org/2/tutorial/)

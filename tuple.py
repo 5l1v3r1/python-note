@@ -9,7 +9,7 @@ print len(u);
 b = 1, 3, (3, 5); # 可嵌套
 print b;
 
-# 元组的封装的逆操作
+# 序列拆封
 a = 3;
 b = 4;
 a, b = (b,a);
@@ -20,3 +20,6 @@ def triple(x, y, z):
 
 a, b, c = triple(1, 2, 3);
 print a, b, c; #3, 6, 9
+
+a, b, c = 1, 2, 3;
+print a, b, c; #1, 2, 3

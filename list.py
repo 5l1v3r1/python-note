@@ -13,6 +13,14 @@ arr.pop();
 for i in range(10):
     arr.append(i);
 
+# 遍历时需要读取下标 enumerate
+for index, value in enumerate(['a', 'b', 'c']):
+    print 'index: %s, value: %s'% (index, value);
+
+# 同时遍历两个或多个数组
+for first, second in zip(['f_a', 'f_b'], ['s_a', 's_b']):
+    print 'first: %s, second: %s'%(first, second);
+
 # 删除列表中下标为参数的值
 arr.pop(3);
 arr.pop(0);
