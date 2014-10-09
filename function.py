@@ -102,3 +102,6 @@ print printMax.__doc__
 print 10 * '*', 'lambda', 10 * '*';
 print (lambda a,b: a+b)(1,3); #4
 print map(lambda x: x * x, [1,2,3]); # [1, 4, 9]
+
+a,b,c = (lambda: (1,3,5))();
+print a,b,c;
