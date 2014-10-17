@@ -25,6 +25,8 @@
 * [learn python the hardway](http://learnpythonthehardway.org/book/)
 * [Python官网教程](https://docs.python.org/2/tutorial/)
 
+### 邮件订阅
+* [python weekly](http://www.pythonweekly.com/)
 
 # 在sublime中运行python
 “Preference(首选项)”-----》“Browse Packages(浏览程序包)”----------》“python”，在打开的目录中修改Python.sublime-build文件类似如下
