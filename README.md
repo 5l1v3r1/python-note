@@ -28,7 +28,7 @@
 ### 邮件订阅
 * [python weekly](http://www.pythonweekly.com/)
 
-# 在sublime中运行python
+## 在sublime中运行python
 “Preference(首选项)”-----》“Browse Packages(浏览程序包)”----------》“python”，在打开的目录中修改Python.sublime-build文件类似如下
 ```
 {
@@ -38,3 +38,22 @@
 }
 ```
 然后，Python文件就可以`ctrl／Command ＋ b`来运行
+
+## 包管理
+可以使用 [pip](https://pip.pypa.io/en/latest/user_guide.html)进行包管理。
+1. 项目根路径下创建`requirements.txt`
+1. 内容类似例如
+```
+MyApp
+Framework==0.9.4
+Library>=0.2
+```
+1. 然后执行 `pip install -r requirements.txt`
+
+具体产看 https://pip.readthedocs.org/en/1.1/requirements.html
+
+### python版本管理
+virtualenv
+
+### 自动化远程部署项目
+* [fabric](http://www.fabfile.org/en/latest/)
