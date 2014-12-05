@@ -19,6 +19,9 @@
 * [crossin的编程教室](http://crossin.me/forum.php?mod=forumdisplay&fid=2)
 * [深入 Python 3](http://sebug.net/paper/books/dive-into-python3/)
 * [Python安全](http://sebug.net/paper/books/vulncat/python/)
+* [廖雪峰的python教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
+* https://github.com/Yixiaohan/codeparkshare
+* [老齐的教程](https://github.com/qiwsir/ITArticles/blob/master/BasicPython/index.md)
 
 ### 英文资源
 * [dive into python](http://www.diveintopython.net/toc/index.html)
