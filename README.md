@@ -22,6 +22,7 @@
 * [廖雪峰的python教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
 * https://github.com/Yixiaohan/codeparkshare
 * [老齐的教程](https://github.com/qiwsir/ITArticles/blob/master/BasicPython/index.md)
+* [Python的神奇方法指南](http://article.yeeyan.org/view/311527/287706)
 
 ### 英文资源
 * [dive into python](http://www.diveintopython.net/toc/index.html)
@@ -44,6 +45,7 @@
 
 ## 包管理
 可以使用 [pip](https://pip.pypa.io/en/latest/user_guide.html)进行包管理。
+
 1. 项目根路径下创建`requirements.txt`
 1. 内容类似例如
 ```
